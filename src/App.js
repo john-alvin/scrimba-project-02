@@ -8,12 +8,24 @@ import Interest from "../src/component/Interest";
 
 function App() {
   return (
-    <div>
-      <About />
-      <Footer />
-      <Info />
-      <Interest />
-    </div>
+    <main className="container">
+      <div className="box-card">
+        <div className="details">
+          <Info />
+          <About />
+          <Interest />
+          <Footer />
+        </div>
+      </div>
+      <div className="box-card">
+        <div className="details">
+          <Info />
+          <About />
+          <Interest />
+          <Footer />
+        </div>
+      </div>
+    </main>
   );
 }
 
