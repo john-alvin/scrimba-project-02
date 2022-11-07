@@ -14,13 +14,13 @@ function Info() {
         <p className="website">laurasmith.website</p>
       </div>
       <div className="buttons">
-        <button>
+        <button className="email">
           <span className="icons">
             <img src={emailIcon} alt="email-icon" />
           </span>
           <span>Email</span>
         </button>
-        <button>
+        <button className="linkedin">
           <span className="icons">
             <img src={linkdinIcon} alt="linkedin-icon" />
           </span>
